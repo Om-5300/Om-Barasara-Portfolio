@@ -4,14 +4,6 @@ import { BsArrowRight, BsGithub } from "react-icons/bs";
 
 const projectsData = [
   {
-    title: "The Art Leaf",
-    category: "Luxury Clothes Studio",
-    description: "A premium handcrafted luxury art studio platform. Specializes in bespoke designer fabrics, signature fine art, and custom home decor with dynamic service integration.",
-    path: "/thumb1.jpg", // Replace with a screenshot of theartleaf.in for best results
-    live: "https://theartleaf.in/",
-    tech: ["React.js", "JavaScript", "Tailwind CSS", "API Integration"]
-  },
-  {
     title: "Construction Website",
     category: "Web Development",
     description: "A premium business website for a heavy equipment rental company. Integrated with AI-powered chatbots and automated PDF quotation systems using n8n.",
@@ -26,6 +18,14 @@ const projectsData = [
     path: "/thumb3.jpg",
     live: "https://nilkanthrealestate.com",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
+  },
+  {
+    title: "The Art Leaf",
+    category: "Luxury Clothes Studio",
+    description: "A premium handcrafted luxury art studio platform. Specializes in bespoke designer fabrics, signature fine art, and custom home decor with dynamic service integration.",
+    path: "/thumb1.jpg", // Replace with a screenshot of theartleaf.in for best results
+    live: "https://theartleaf.in/",
+    tech: ["React.js", "JavaScript", "Tailwind CSS", "API Integration"]
   },
   {
     title: "Pet Shop Accessories",
