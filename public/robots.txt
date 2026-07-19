@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ombarasara.com/sitemap.xml
+Sitemap: https://om-barasara-portfolio.vercel.app/sitemap.xml

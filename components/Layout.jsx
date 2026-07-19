@@ -14,8 +14,9 @@ const sora = Sora({
 
 const Layout = ({ children }) => {
   const router = useRouter();
-  const domain = "https://ombarasara.com"; // Replace with your actual domain
+  const domain = "https://om-barasara-portfolio.vercel.app";
   const canonicalUrl = `${domain}${router.asPath === "/" ? "" : router.asPath}`;
+  const siteDescription = "Om Barasara is a Full-stack Developer and AI Agent Specialist specializing in modern Website Development, React, Next.js, Python, RAG, and LLM integration. Build intelligent digital solutions.";
 
   return (
     <main
@@ -26,7 +27,7 @@ const Layout = ({ children }) => {
         {/* Primary Meta Tags */}
         <title>Om Barasara | Full-Stack Developer & AI Agent Specialist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Om Barasara is a Full-stack Developer and AI Agent Specialist specializing in React, Next.js, Python, RAG, and LLM integration. Build intelligent digital solutions." />
+        <meta name="description" content={siteDescription} />
         <meta name="keywords" content="Om Barasara, Full-stack Developer, AI Agent, AI Specialist, React Developer, Next.js Developer, Python Developer, RAG, LLM, Portfolio, Web Development" />
         <meta name="author" content="Om Barasara" />
         <meta name="theme-color" content="#f13024" />
@@ -38,7 +39,7 @@ const Layout = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
-        <meta property="og:description" content="Expert Full-stack Developer and AI Agent Specialist. Specializing in intelligent RAG systems and high-performance web applications." />
+        <meta property="og:description" content={siteDescription} />
         <meta property="og:image" content={`${domain}/logo.png`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -47,7 +48,7 @@ const Layout = ({ children }) => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={canonicalUrl} />
         <meta property="twitter:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
-        <meta property="twitter:description" content="Om Barasara is a Full-stack Developer and AI Agent Specialist. Explore his portfolio of AI agents and web solutions." />
+        <meta property="twitter:description" content={siteDescription} />
         <meta property="twitter:image" content={`${domain}/logo.png`} />
 
         {/* JSON-LD Structured Data */}
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
               "url": domain,
               "image": `${domain}/logo.png`,
               "jobTitle": "Full-Stack Developer & AI Agent Specialist",
-              "description": "Om Barasara is a Full-stack Developer and AI Agent Specialist with expertise in React, Python, and LLM integration.",
+              "description": siteDescription,
               "sameAs": [
                 "https://github.com/Om-5300",
                 "https://www.linkedin.com/in/om-barasara/",
