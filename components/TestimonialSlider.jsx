@@ -11,7 +11,7 @@ const testimonialData = [
   {
     image: "/t-avt-1.png",
     name: "Drashti Bavarva",
-    position: "Founder - The Art Leaf",
+    position: "Founder, The Art Leaf",
     message: "Om is an exceptional developer who understands both the frontend and the complex AI backends perfectly.",
   },
   {
@@ -29,7 +29,7 @@ const testimonialData = [
   {
     image: "/t-avt-1.png",
     name: "Nakul Kundaliya",
-    position: "AI Research Lead",
+    position: "CEO, Mayora Infotech",
     message: "Om's expertise in RAG systems and LLM integration helped us achieve a 40% boost in efficiency.",
   },
   {
