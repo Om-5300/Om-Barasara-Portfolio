@@ -30,7 +30,7 @@ const testimonialData = [
   },
   {
     name: "Savan Dava",
-    position: "Founder, ArtLeaf",
+    position: "Founder, Leflour",
     message: "Highly recommended for full-stack projects. He built our entire e-commerce platform with perfection.",
   },
   {
