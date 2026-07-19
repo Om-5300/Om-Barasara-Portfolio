@@ -40,7 +40,8 @@ const Layout = ({ children }) => {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
         <meta property="og:description" content={siteDescription} />
-        <meta property="og:image" content={`${domain}/logo.png`} />
+        {/* Using og-image.png with black background for better visibility in social previews */}
+        <meta property="og:image" content={`${domain}/og-image.png`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -49,7 +50,7 @@ const Layout = ({ children }) => {
         <meta property="twitter:url" content={canonicalUrl} />
         <meta property="twitter:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
         <meta property="twitter:description" content={siteDescription} />
-        <meta property="twitter:image" content={`${domain}/logo.png`} />
+        <meta property="twitter:image" content={`${domain}/og-image.png`} />
 
         {/* JSON-LD Structured Data */}
         <script
