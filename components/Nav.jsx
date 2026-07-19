@@ -77,7 +77,7 @@ const Nav = () => {
       {/* Mobile Header Bar (Only visible when menu is open) */}
       <div className={`mobile_menu_header ${isOpen ? "open" : ""}`}>
          <div className="mobile_menu_logo">
-            <Image src="/logo.svg" alt="logo" width={180} height={35} priority />
+            <Image src="/logo.png" alt="logo" width={180} height={35} priority />
          </div>
       </div>
 

@@ -10,7 +10,7 @@ const Header = () => {
           {/* LOGO on the Left */}
           <Link href="/" style={{ color: 'transparent', paddingTop: '0.5rem' }}>
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="logo"
               width={250}
               height={48}

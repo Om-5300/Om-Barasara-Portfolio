@@ -30,6 +30,8 @@ const Layout = ({ children }) => {
         <meta name="keywords" content="Om Barasara, Full-stack Developer, AI Agent, AI Specialist, React Developer, Next.js Developer, Python Developer, RAG, LLM, Portfolio, Web Development" />
         <meta name="author" content="Om Barasara" />
         <meta name="theme-color" content="#f13024" />
+        <link rel="icon" type="image/png" href="/logo.png" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href={canonicalUrl} />
 
         {/* Open Graph / Facebook / WhatsApp */}
