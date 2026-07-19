@@ -12,12 +12,12 @@ const projectsData = [
     tech: ["React.js", "JavaScript", "Tailwind CSS", "API Integration"]
   },
   {
-    title: "Pet Shop Accessories",
-    category: "Full Stack Development",
-    description: "An e-commerce platform for pet accessories, enabling customers to browse and purchase products easily. Features a fully functional store with secure checkout.",
-    path: "/thumb2.jpg",
-    live: "https://github.com/Om-5300/pet-shop",
-    tech: ["React.js", "Node.js", "Express", "MongoDB"]
+    title: "Construction Website",
+    category: "Web Development",
+    description: "A premium business website for a heavy equipment rental company. Integrated with AI-powered chatbots and automated PDF quotation systems using n8n.",
+    path: "/thumb4.jpg",
+    live: "https://patelengineeringandearthmovers.in/",
+    tech: ["React.js", "Tailwind CSS", "Vite", "n8n Automation"]
   },
   {
     title: "Real Estate Business",
@@ -28,12 +28,12 @@ const projectsData = [
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
   {
-    title: "Construction Website",
-    category: "Web Development",
-    description: "A premium business website for a heavy equipment rental company. Integrated with AI-powered chatbots and automated PDF quotation systems using n8n.",
-    path: "/thumb4.jpg",
-    live: "https://patelengineeringandearthmovers.in/",
-    tech: ["React.js", "Tailwind CSS", "Vite", "n8n Automation"]
+    title: "Pet Shop Accessories",
+    category: "Full Stack Development",
+    description: "An e-commerce platform for pet accessories, enabling customers to browse and purchase products easily. Features a fully functional store with secure checkout.",
+    path: "/thumb2.jpg",
+    live: "https://github.com/Om-5300/pet-shop",
+    tech: ["React.js", "Node.js", "Express", "MongoDB"]
   },
 ];
 
