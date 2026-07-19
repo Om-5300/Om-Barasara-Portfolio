@@ -29,7 +29,7 @@ const projectsData = [
   },
   {
     title: "Construction Website",
-    category: "Web Development & Automation",
+    category: "Web Development",
     description: "A premium business website for a heavy equipment rental company. Integrated with AI-powered chatbots and automated PDF quotation systems using n8n.",
     path: "/thumb4.jpg",
     live: "https://patelengineeringandearthmovers.in/",
