@@ -9,7 +9,6 @@ const projectsData = [
     description: "A premium handcrafted luxury art studio platform. Specializes in bespoke designer fabrics, signature fine art, and custom home decor with dynamic service integration.",
     path: "/thumb1.jpg", // Replace with a screenshot of theartleaf.in for best results
     live: "https://theartleaf.in/",
-    github: "https://github.com/Om-5300",
     tech: ["React.js", "JavaScript", "Tailwind CSS", "API Integration"]
   },
   {
@@ -18,7 +17,6 @@ const projectsData = [
     description: "An e-commerce platform for pet accessories, enabling customers to browse and purchase products easily. Features a fully functional store with secure checkout.",
     path: "/thumb2.jpg",
     live: "https://github.com/Om-5300/pet-shop",
-    github: "https://github.com/Om-5300/pet-shop",
     tech: ["React.js", "Node.js", "Express", "MongoDB"]
   },
   {
@@ -27,17 +25,15 @@ const projectsData = [
     description: "A modern, responsive business website for a real estate company to showcase residential and commercial properties with professional user experience.",
     path: "/thumb3.jpg",
     live: "https://nilkanthrealestate.com",
-    github: "https://github.com/Om-5300/Nilkanth-Real-Estate",
-    tech: ["React.js", "JavaScript", "HTML5", "Vite"]
+    tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
   {
     title: "Construction Website",
-    category: "Frontend Development",
-    description: "A responsive website for a construction company, showcasing its services, projects, and contact info with an intuitive layout.",
+    category: "Web Development & Automation",
+    description: "A premium business website for a heavy equipment rental company. Integrated with AI-powered chatbots and automated PDF quotation systems using n8n.",
     path: "/thumb4.jpg",
     live: "https://patelengineeringandearthmovers.in/",
-    github: "https://github.com/Om-5300/CONSTRUCTION_WEBSITE",
-    tech: ["HTML", "CSS", "JavaScript", "MySQL"]
+    tech: ["React.js", "Tailwind CSS", "Vite", "n8n Automation"]
   },
 ];
 
