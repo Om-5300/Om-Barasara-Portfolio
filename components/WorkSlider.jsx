@@ -23,9 +23,17 @@ const projectsData = [
     title: "The Art Leaf",
     category: "Luxury Clothes Studio",
     description: "A premium handcrafted luxury art studio platform. Specializes in bespoke designer fabrics, signature fine art, and custom home decor with dynamic service integration.",
-    path: "/thumb1.jpg", // Replace with a screenshot of theartleaf.in for best results
+    path: "/thumb1.jpg",
     live: "https://theartleaf.in/",
     tech: ["React.js", "JavaScript", "Tailwind CSS", "API Integration"]
+  },
+  {
+    title: "Leflour",
+    category: "Business & E-commerce",
+    description: "A premium digital catalog and business platform for high-quality flour and agricultural products. Features an integrated enquiry system and product showcase.",
+    path: "/thumb5.jpg",
+    live: "https://www.leflour.in/",
+    tech: ["HTML5", "CSS3", "JavaScript", "PHP"]
   },
   {
     title: "Pet Shop Accessories",

@@ -28,6 +28,9 @@ A modern, responsive business website for a real estate company to showcase resi
 ### [Construction Website](https://patelengineeringandearthmovers.in/)
 A responsive website for a construction company, showcasing its services, projects, and contact info with an intuitive layout.
 
+### [Leflour](https://www.leflour.in/)
+A premium digital catalog and business platform for high-quality flour and agricultural products.
+
 ## 🏁 Getting Started
 
 1.  **Clone the Repository**:
