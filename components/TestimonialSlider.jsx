@@ -9,37 +9,31 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
     name: "Drashti Bavarva",
     position: "Founder, The Art Leaf",
     message: "Om is an exceptional developer who understands both the frontend and the complex AI backends perfectly.",
   },
   {
-    image: "/t-avt-2.png",
     name: "Hemant Barasara",
     position: "CEO, Patel Engineering & Earthmovers",
     message: "Working with Om was a great experience. He delivered the AI-powered chatbot ahead of schedule.",
   },
   {
-    image: "/t-avt-3.png",
     name: "Amitbhai Panara",
     position: "CEO, Nilkanth Real Estate",
     message: "Om's ability to translate complex requirements into working software is impressive.",
   },
   {
-    image: "/t-avt-1.png",
     name: "Nakul Kundaliya",
     position: "CEO, Mayora Infotech",
     message: "Om's expertise in RAG systems and LLM integration helped us achieve a 40% boost in efficiency.",
   },
   {
-    image: "/t-avt-2.png",
     name: "Savan Dava",
     position: "Founder, ArtLeaf",
     message: "Highly recommended for full-stack projects. He built our entire e-commerce platform with perfection.",
   },
   {
-    image: "/t-avt-3.png",
     name: "Kishan Kavar",
     position: "Marketing Director",
     message: "The automation workflows Om implemented saved us hundreds of hours of manual lead qualification.",
