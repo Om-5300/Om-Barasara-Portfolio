@@ -2,8 +2,6 @@
 
 A modern, high-performance portfolio website built with **Next.js**, **Framer Motion**, and **Standard CSS**. This project showcases my journey, technical skills, and featured projects including AI-powered automation agents and luxury e-commerce platforms.
 
-![Portfolio Preview](.github/images/img_main.png)
-
 ## 🚀 Key Features
 
 -   **Instant Navigation**: Optimized route prefetching and dynamic importing for a lag-free experience.
