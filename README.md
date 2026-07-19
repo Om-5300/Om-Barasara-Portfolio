@@ -24,11 +24,11 @@ A modern, high-performance portfolio website built with **Next.js**, **Framer Mo
 ### [The Art Leaf](https://theartleaf.in/)
 A premium handcrafted luxury art studio platform specializing in bespoke designer fabrics and signature fine art.
 
-### AI Sales Executive Agent
-Automated lead discovery and personalized outreach system using RAG (Retrieval-Augmented Generation) and Vector Embeddings.
+### [Real Estate Business](https://nilkanthrealestate.com)
+A modern, responsive business website for a real estate company to showcase residential and commercial properties with professional user experience.
 
-### Pet Shop Accessories
-A full-featured e-commerce platform with a functional store and secure checkout.
+### [Construction Website](https://patelengineeringandearthmovers.in/)
+A responsive website for a construction company, showcasing its services, projects, and contact info with an intuitive layout.
 
 ## 🏁 Getting Started
 
