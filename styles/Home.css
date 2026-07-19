@@ -1,0 +1,182 @@
+.home_wrapper {
+  background-color: var(--primary);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: visible; /* Prevent nested scrollbars */
+}
+
+/* More dynamic background gradients */
+.home_gradient {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(241, 48, 36, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(74, 34, 189, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(19, 20, 36, 1) 0%, transparent 100%),
+    radial-gradient(circle at 80% 80%, rgba(241, 48, 36, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(74, 34, 189, 0.08) 0%, transparent 40%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home_container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.home_layout {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 80px; /* space to clear absolute header on mobile */
+}
+
+.home_text_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 20;
+  order: 1; /* text comes first on mobile */
+  padding: 20px 24px 20px 24px;
+  width: 100%;
+}
+
+.home_image_section {
+  position: relative;
+  width: 100%;
+  height: 280px; /* scaled down for mobile screens */
+  z-index: 10;
+  order: 2; /* avatar image comes second on mobile */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  pointer-events: none;
+  padding-top: 10px;
+}
+
+.explosion_bg {
+  position: absolute;
+  width: 100%; /* Much larger to ensure edges are far away */
+  height: 100%;
+  background-image: url("/bg-explosion.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+  opacity: 0.4;
+  z-index: 1;
+  /* Stronger radial mask to force a soft glow and hide square corners */
+  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 60%);
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 60%);
+}
+
+.home_avatar_box {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 2;
+  padding-top: 3rem;
+  margin-left: 1rem;
+}
+
+.home_subtitle {
+  max-width: 550px;
+  margin: 0 auto 30px auto;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.home_btn_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* Tablet / Desktop Switch: From 800px up, keep side-by-side */
+@media (min-width: 800px) {
+  .home_layout {
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 0;
+  }
+  .home_text_section {
+    order: 1;
+    text-align: left;
+    width: 55%;
+    padding-left: 2rem;
+  }
+  .home_image_section {
+    order: 2;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 45%;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .home_avatar_box {
+    max-width: 450px;
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: flex-end;
+    border-radius: 0;
+    aspect-ratio: auto;
+    border: none;
+    background: none;
+    overflow: visible;
+  }
+  .home_subtitle {
+    max-width: 600px;
+    margin: 0 0 40px 0;
+    font-size: 18px;
+  }
+  .home_btn_container {
+    flex-direction: column; /* Stacked below 1000px */
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+/* From 1000px up, move socials to the right of the circle */
+@media (min-width: 1000px) {
+  .home_btn_container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+/* Large Desktop Refinements */
+@media (min-width: 1200px) {
+  .home_avatar_box {
+    max-width: 580px;
+  }
+  .home_subtitle {
+    max-width: 650px;
+    margin-bottom: 56px;
+    font-size: 20px;
+  }
+}

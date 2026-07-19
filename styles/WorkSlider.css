@@ -1,0 +1,153 @@
+.work_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px; /* Reduced for mobile */
+  width: 100%;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px; /* Slightly smaller for mobile */
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.project_card:hover {
+  border-color: rgba(241, 48, 36, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project_image_box {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Smaller for mobile */
+  overflow: hidden;
+}
+
+.project_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.project_card:hover .project_img {
+  transform: scale(1.1);
+}
+
+.project_info {
+  padding: 1.25rem; /* Reduced for mobile */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project_category {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #f13024;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.project_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.project_description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.project_tech_stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.tech_tag {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project_links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.project_link_btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project_link_btn.live {
+  background: #f13024;
+  border-color: #f13024;
+}
+
+.project_link_btn:hover {
+  background: white;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .work_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .project_card {
+    border-radius: 24px;
+  }
+
+  .project_image_box {
+    height: 240px;
+  }
+
+  .project_info {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work_grid {
+    gap: 40px;
+  }
+
+  .project_title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .work_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

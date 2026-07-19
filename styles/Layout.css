@@ -1,0 +1,16 @@
+.layout_main {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--secondary);
+  color: white;
+  font-family: 'Sora', sans-serif;
+  overflow: visible; /* Prevent nested scrollbars */
+}
+
+.layout_bg {
+  background-image: url("/site-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
