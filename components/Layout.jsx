@@ -39,8 +39,7 @@ const Layout = ({ children }) => {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
         <meta property="og:description" content="Expert Full-stack Developer and AI Agent Specialist. Specializing in intelligent RAG systems and high-performance web applications." />
-        {/* WhatsApp specifically looks for og:image. It's better to use a PNG/JPG than an SVG for link previews */}
-        <meta property="og:image" content={`${domain}/avtar.png`} />
+        <meta property="og:image" content={`${domain}/logo.png`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -49,7 +48,7 @@ const Layout = ({ children }) => {
         <meta property="twitter:url" content={canonicalUrl} />
         <meta property="twitter:title" content="Om Barasara | Full-Stack Developer & AI Agent Specialist" />
         <meta property="twitter:description" content="Om Barasara is a Full-stack Developer and AI Agent Specialist. Explore his portfolio of AI agents and web solutions." />
-        <meta property="twitter:image" content={`${domain}/avtar.png`} />
+        <meta property="twitter:image" content={`${domain}/logo.png`} />
 
         {/* JSON-LD Structured Data */}
         <script
@@ -60,7 +59,7 @@ const Layout = ({ children }) => {
               "@type": "Person",
               "name": "Om Barasara",
               "url": domain,
-              "image": `${domain}/avtar.png`,
+              "image": `${domain}/logo.png`,
               "jobTitle": "Full-Stack Developer & AI Agent Specialist",
               "description": "Om Barasara is a Full-stack Developer and AI Agent Specialist with expertise in React, Python, and LLM integration.",
               "sameAs": [
