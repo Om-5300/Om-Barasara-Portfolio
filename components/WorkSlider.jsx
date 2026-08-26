@@ -10,7 +10,7 @@ const projectsData = [
     description:
       "A modern industrial website for FOSTEC Equipment Pvt. Ltd., focused on self-loading concrete mixers and heavy-duty construction machinery, featuring products, applications, benefits and dealer enquiries.",
     path: "/fostecequipment.png",
-    live: "#",
+    live: "https://fostec-equipment.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -21,7 +21,7 @@ const projectsData = [
     description:
       "A professional engineering website for Stronghold Engineering India, showcasing bridge bearings, expansion joints, rubber products, steel fabrication and specialized bridge repair and rehabilitation solutions.",
     path: "/Stronghold_Engineering_India.png",
-    live: "#",
+    live: "https://stronghold-engineering.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -51,7 +51,7 @@ const projectsData = [
     description:
       "A premium corporate website for BPC Projects and Infrastructure Pvt Ltd, showcasing its five decades of experience in commercial, industrial, healthcare, government and public infrastructure construction.",
     path: "/bpc_infrastructure_pvt_ltd.png",
-    live: "#",
+    live: "https://bpc-pvt-ltd.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -61,7 +61,7 @@ const projectsData = [
     description:
       "A premium construction website for RNS Construction, showcasing residential and commercial construction services, completed projects, quality standards and a professional end-to-end building process.",
     path: "/rns_construction.png",
-    live: "#",
+    live: "https://rns-construction-frt.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -71,7 +71,7 @@ const projectsData = [
     description:
       "A professional industrial website for Sun Engineers, showcasing high-tonnage hydraulic presses, CNC woodworking machinery, custom machine design, hydraulic systems and in-house manufacturing capabilities.",
     path: "/sun_engineers.png",
-    live: "#",
+    live: "https://sun-engineers-digital.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -81,7 +81,7 @@ const projectsData = [
     description:
       "A professional industrial website for Virkrupa Engineers, specializing in heavy and light-duty fabrication, CNC laser cutting, structural fabrication, stainless steel silos, storage tanks and custom industrial solutions.",
     path: "/virkrupa_engineers.png",
-    live: "#",
+    live: "https://virkrupa-engineeringworks.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
@@ -91,7 +91,7 @@ const projectsData = [
     description:
       "A professional website for H.K. Construction, showcasing end-to-end road construction services including earthwork, sub-base preparation, asphalt finishing, drainage and civil infrastructure projects across Gujarat.",
     path: "/HK_Construction.png",
-    live: "#",
+    live: "https://h-k-construction.vercel.app/",
     tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript"]
   },
 
